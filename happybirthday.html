@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Happy Birthday My Love</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Arial', sans-serif;
-      background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
-      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+      color: white;
       text-align: center;
-      overflow-x: hidden;
+      overflow: hidden;
     }
 
     h1 {
-      margin-top: 40px;
+      margin-top: 60px;
       font-size: 2.2em;
       animation: glow 2s ease-in-out infinite alternate;
     }
 
     p {
       font-size: 1.1em;
-      margin: 20px;
-      padding: 10px;
+      padding: 20px;
       line-height: 1.7;
     }
 
@@ -62,7 +61,7 @@
         text-shadow: 0 0 10px #fff, 0 0 20px #ff69b4;
       }
       to {
-        text-shadow: 0 0 20px #fff, 0 0 40px #ff69b4;
+        text-shadow: 0 0 20px #fff, 0 0 40px #ff1493;
       }
     }
 
@@ -82,51 +81,51 @@
 
     .btn {
       display: inline-block;
-      margin: 30px auto;
-      padding: 12px 25px;
-      background-color: #ff69b4;
+      margin: 25px auto;
+      padding: 15px 30px;
+      background: #ff4081;
       color: white;
-      border-radius: 25px;
+      border-radius: 30px;
       text-decoration: none;
-      font-size: 1em;
+      font-size: 1.2em;
       animation: glow 1.5s ease-in-out infinite alternate;
     }
 
     footer {
       font-size: 0.9em;
-      margin-top: 20px;
-      color: #fff;
+      margin-bottom: 15px;
     }
   </style>
 </head>
 <body>
   <h1>Happy Birthday, My Love 💖</h1>
   <p>
-    Dear [Your Wife's Name],<br><br>
-    On this special day, I just want to remind you how much you mean to me. You are the light of my life, the beat of my heart, and the reason I smile every day. 💕<br><br>
-    I feel so lucky to walk beside you through this life. I hope this birthday brings you as much joy and love as you bring into mine. 🎂<br><br>
-    Happy Birthday, my queen! 👑 I love you more than words can say.
+    Dear Sukoon,<br><br>
+    Today, we celebrate the most beautiful soul who fills my life with joy. You are my sunshine, my happiness, and the love I thank the universe for every day. ❤️<br><br>
+    May this birthday bring you as much happiness as you have given me all these years. I love you forever, and this is just a little surprise to show that. 💫<br><br>
+    Happy Birthday, My Sukoon!👑
   </p>
 
-  <a class="btn" href="#">💌 With All My Love</a>
+  <a class="btn" href="#">💌 Love You Always</a>
 
+  <footer>Made with ❤️ by Hitendra Rajput</footer>
+
+  <!-- Floating Hearts -->
   <script>
     function createHeart() {
       const heart = document.createElement("div");
       heart.classList.add("heart");
       heart.style.left = Math.random() * 100 + "vw";
-      heart.style.animationDuration = Math.random() * 2 + 4 + "s";
+      heart.style.animationDuration = (Math.random() * 2 + 4) + "s";
       document.body.appendChild(heart);
       setTimeout(() => heart.remove(), 6000);
     }
     setInterval(createHeart, 300);
   </script>
 
-  <!-- Optional: Background music -->
+  <!-- Optional Background Music -->
   <audio autoplay loop>
     <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mp3">
   </audio>
-
-  <footer>Made with ❤️ by [Your Name]</footer>
 </body>
 </html>
